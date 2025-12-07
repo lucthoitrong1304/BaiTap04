@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useSearchParams, useNavigate, Link } from "react-router-dom";
 import { resetPassword as apiResetPassword } from "../services/api";
 import { toast } from "react-hot-toast";

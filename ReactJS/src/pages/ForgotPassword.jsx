@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { forgotPassword } from "../services/api";
 import { toast } from "react-hot-toast";
 import { Link } from "react-router-dom";
